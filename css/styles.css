@@ -1,0 +1,59 @@
+/* Shutterbug Bootstrap Project 12/3/19 */
+
+.container {
+	max-width: 968px;
+}
+
+.main {
+	background-image: url("../images/intro.jpg");
+	height: 600px;
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.main h1 {
+	font-family: 'Bebas Neue', cursive;
+	font-size:120px;
+	text-shadow: tomato 4px 2px 3px;
+	transition: text-shadow 2s;
+	transition: font-size 1s;
+}
+
+.main h1:hover {
+	text-shadow: darkred 5px 5px 5px;
+
+}
+
+.main h2 {
+	font-family: 'Solway', serif;
+	margin-bottom: 25px;
+}
+
+.btn {
+	font-size: 24px;
+	background-color: tomato;
+}
+
+.row h1 {
+	font-family: 'Lato', sans-serif;
+	
+}
+
+.row p {
+	
+}
+
+#store {
+	text-align: center;
+}
+
+.footer h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
